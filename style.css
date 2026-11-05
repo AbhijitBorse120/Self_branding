@@ -82,6 +82,7 @@ nav.scrolled { background-color: rgba(10, 10, 15, 0.9); backdrop-filter: blur(10
 .project-card:hover::before { opacity: 1; }
 .accent-green:hover { border-color: rgba(76, 201, 145, 0.3); box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 20px rgba(76, 201, 145, 0.1); }
 .accent-blue:hover { border-color: rgba(76, 145, 201, 0.3); box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 20px rgba(76, 145, 201, 0.1); }
+.accent-purple:hover { border-color: rgba(167, 76, 201, 0.3); box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 20px rgba(167, 76, 201, 0.1); }
 .project-meta { margin-bottom: 1rem; }
 .project-date { font-family: var(--font-heading); color: var(--primary-color); font-style: italic; }
 .project-title { font-family: var(--font-heading); font-size: 2rem; margin-bottom: 0.5rem; }
@@ -91,6 +92,7 @@ nav.scrolled { background-color: rgba(10, 10, 15, 0.9); backdrop-filter: blur(10
 .tech-stack span { font-size: 0.8rem; color: var(--primary-color); background: rgba(201, 168, 76, 0.05); padding: 0.3rem 0.8rem; border-radius: 4px; }
 .accent-green .tech-stack span { color: #4cc991; background: rgba(76, 201, 145, 0.1); }
 .accent-blue .tech-stack span { color: #4c91c9; background: rgba(76, 145, 201, 0.1); }
+.accent-purple .tech-stack span { color: #a74cc9; background: rgba(167, 76, 201, 0.1); }
 
 .skills-section { padding: 4rem 0; background-color: var(--pure-black); border-top: 1px solid rgba(255,255,255,0.02); border-bottom: 1px solid rgba(255,255,255,0.02); overflow: hidden; }
 .marquee-container { width: 100vw; display: flex; white-space: nowrap; }
